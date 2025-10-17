@@ -69,6 +69,7 @@ const Contact = () => {
                                 placeholder='John Kind'
                                 type='text'
                                 name='name'
+                                required
                             />
                         </div>
                         <div className='flex flex-col  gap-y-2'>
@@ -79,6 +80,7 @@ const Contact = () => {
                                 placeholder='johnkind@company.gmail'
                                 type='email'
                                 name='email'
+                                required
                             />
                         </div>
                         <div className='flex flex-col  gap-y-2'>
@@ -89,6 +91,7 @@ const Contact = () => {
                                 name='message' 
                                 rows='5' cols='40'
                                 placeholder='Tell us your message'
+                                required
                             ></textarea>
                         </div>
                             <button className='bg-black text-white p-3 text-3xl rounded-lg mb-4 active:bg-slate-50 active:text-slate-950'>Send</button>
