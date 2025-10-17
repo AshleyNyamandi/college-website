@@ -56,7 +56,7 @@ const Nav = () => {
                           transition-transform
                           duration-300
                           ease-in-out
-                          ${isMenuOpen ? 'translate-x-full' : 'translate-0'}
+                          ${!isMenuOpen && 'translate-x-full'}
                           xl:absolute xl:h-fit xl:bg-transparent xl:translate-x-0 xl:z-auto`
                         }
                         ref={navBackground}

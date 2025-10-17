@@ -38,8 +38,8 @@ const Contact = () => {
 
   return (
     <Element  name='contact'>
-        <section className='mt-5 shadow-[0_0_20px_rgba(0,0,0,0.05)] py-4'>
-            <div className='container mx-auto'>
+        <section className='container mx-auto mt-5 shadow-[0_0_20px_rgba(0,0,0,0.05)] py-4 px-4'>
+            <div className='mx-auto'>
                 <div className='text-center'>
                     <PageHeaders 
                         header1='Contact Us'
