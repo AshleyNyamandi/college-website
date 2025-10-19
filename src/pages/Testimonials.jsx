@@ -1,5 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
+import default_user_profile from '../assets/default_user.png'
 
 import PageHeaders from '../components/PageHeaders'
 import ReadMore from '../components/ReadMore'
@@ -50,7 +51,7 @@ const Testimonials = () => {
                                   <ReadMore>{student.testimony}</ReadMore>
                                   <div className='flex justify-between   items-center mt-4'> 
                                     <div className='flex items-center gap-4'>
-                                      <img className='w-10 h-10 object-cover border-2 border-blue-500 rounded-full' src={student.img? student.img : "/src/assets/default_user.png"} alt={student.img? student.name : "default profile"} />
+                                      <img className='w-10 h-10 object-cover border-2 border-blue-500 rounded-full' src={student.img? student.img : default_user_profile} alt={student.img? student.name : "default profile"} />
                                       <span>{student.name}</span>
                                     </div>
                                     <div className='flex'>
